@@ -1,0 +1,52 @@
+input:focus ,button:focus{
+    outline: none;
+}
+.app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app-container #title{
+    font: bold;
+    font-size: 2cm;
+    color: cadetblue;
+}
+.app-container .search-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    width: 50%;
+}
+.app-container .search-box .control-lable{
+    font-size: 2cm;
+}
+.app-container .search-box .control-input{
+    margin: 1%;
+    width: 100%;
+    border-radius: 9px;
+    border: 2% solid black;
+    padding: 2%;
+    font-size: 100%;
+    text-align: center;
+}
+.app-container .search-box .control-input:focus{
+    color: black;
+    border: 1px solid red;
+}
+.app-container .search-box .control-submit{
+    font-size: 100%;
+    color: rebeccapurple;
+    background-color: cornsilk;
+    margin: 1cm;
+    padding: 4%;
+    border: 3px solid peru;
+}
+.app-container .search-box .control-submit:hover{
+    color: blanchedalmond;
+    background-color: darkgoldenrod;
+    border-color: darkkhaki;
+    cursor: pointer;
+}
